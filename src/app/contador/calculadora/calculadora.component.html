@@ -1,0 +1,55 @@
+
+<h1 >Calculadora </h1>
+<div class="center-calculadora">
+  <table class="calculadora">
+ <link type="text/css" href="calculadora.component.css" rel="stylesheet">
+  
+    <div class="fondo">
+     
+      <div class="module line-clamp">
+  
+          <p id="pantalla" >{{resultado}}</p>
+         
+        </div>
+       
+        <div class="div">
+       <td> <button  id="num7" (click)="num7()">7</button></td>
+       <td>   <button  id="num8" (click)="num8()" >8</button></td>
+        <td>  <button  id="num9"  (click)="num9()" >9</button></td>
+        <td> <button  id="entre" class="button2" (click)="div()"  >/</button></td>
+     
+        
+          </div>
+          <td>  <button id="num4" (click)="num4()"  >4</button></td>
+        <td>  <button  id="num5"  (click)="num5()" >5</button></td>
+        <td>  <button  id="num6"  (click)="num6()" >6</button></td>
+        <td>  <button  id="por" class="button2" (click)="multi()" >*</button></td>
+        
+        
+        <div class="div">
+          <td> <button id="num1"  (click)="num1()" >1</button></td>
+        
+        <td>  <button  id="num2"  (click)="num2()" >2</button></td>
+        <td>  <button id="num3"  (click)="num3()" >3</button></td>
+        <td> <button  id="menos" class="button2" (click)="resta()">-</button></td>
+        
+      
+        
+        </div>
+        <div class="div">
+         
+        <td> <button  id="num0"  (click)="num0()" >0</button></td>
+        <td> <button  id="potencia" (click)="potencia()">^</button></td>
+        <td>  <button  id="punto"  (click)="punto()">.</button></td>
+        <td>  <button  id="mas" class="button2" (click)="suma()">+</button></td>
+        </div>
+        <div class="div">
+          <td> <button  id="p1" (click)="p1()">(</button></td>
+        <td> <button  id="p2"  (click)="p2()">)</button></td>
+        <td> <button  class="button2" id="cls" (click)="cls()">cls</button></td>
+        <td> <button  id="igual" class="button2" (click)="igual()" >=</button></td>
+       
+      </div> 
+      </div>
+ 
+      
